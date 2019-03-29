@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <Menu></Menu>
+    <hr>
+    {{$t('message.hello')}}
+    <hr>
     <router-view/>
     <Footer></Footer>
   </div>
@@ -9,12 +12,13 @@
 <script>
 import Menu from '@/components/blocks/Menu'
 import Footer from '@/components/blocks/Footer'
-
+import i18n from '@/plugins/i18n'
 export default {
   name: 'App',
   components: {
     Menu,
-    Footer
+    Footer,
+    i18n
   }
 }
 </script>

@@ -8,9 +8,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Vuex from 'vuex'
 import store from '../store'
+import VueI18n from 'vue-i18n'
 
 Vue.use(Vuex)
 Vue.use(BootstrapVue)
+Vue.use(VueI18n)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -18,6 +20,7 @@ new Vue({
   el: '#app',
   router,
   store,
+  VueI18n,
   components: { App },
   template: '<App/>'
 })

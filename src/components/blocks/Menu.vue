@@ -3,6 +3,7 @@
     <b-navbar type="dark" variant="dark">
       <b-navbar-nav>
         <b-nav-item href="/#/">Home</b-nav-item>
+        <b-nav-item href="/#/students">Students</b-nav-item>
         <b-nav-item href="/#/page2">Page 2</b-nav-item>
 
         <!-- Navbar dropdowns -->
